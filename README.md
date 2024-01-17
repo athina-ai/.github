@@ -14,13 +14,14 @@ We have a library of preset evaluators, but you can also write custom evaluators
 
 #### Example Preset Evals:
 
-- **Context Contains Enough Information**: Detect bad or insufficient retrievals.
-- **Does Response Answer Query**: Detect incomplete or irrelevant responses.
-- **Response Faithfulness**: Detect when responses are deviating from the provided context.
-- **Summarization Accuracy**: Detect hallucinations and mistakes in summaries
-- **Grading Criteria**: If X, then fail. Otherwise pass.
-- **Custom Evals**: Custom prompt for LLM-powered evaluation.
+- [**Context Contains Enough Information**](https://docs.athina.ai/evals/preset_evals/ccei): Detect bad or insufficient retrievals.
+- [**Does Response Answer Query**](https://docs.athina.ai/evals/preset_evals/draq): Detect incomplete or irrelevant responses.
+- [**Response Faithfulness**](https://docs.athina.ai/evals/preset_evals/faithfulness): Detect when responses are deviating from the provided context.
+- [**Summarization Accuracy**](https://docs.athina.ai/evals/preset_evals/summarization_eval): Detect hallucinations and mistakes in summaries
+- [**Grading Criteria**](https://docs.athina.ai/evals/custom_evals#custom-grading-criteria-easy): If X, then fail. Otherwise pass.
+- [**Custom Prompt**](https://docs.athina.ai/evals/custom_evals#llm-evaluator-with-a-completely-custom-prompt): Custom prompt for LLM-powered evaluation.
 - **RAGAS**: A set of evaluators that return [RAGAS](https://github.com/explodinggradients/ragas) metrics.
+- and more...
 
 Results can also be viewed and tracked on our platform.
 ![develop-view](https://github.com/athina-ai/.github/assets/7515552/5aaf9d9f-8462-45b2-81c9-946c800991fd)
